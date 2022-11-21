@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Delete Task",
+    "line": 1,
+    "id": "delete-task",
+    "tags": [],
+    "uri": "delete.feature",
+    "elements": [
+      {
+        "id": "delete-task;verify-user-deletes-task-from-tasktracker-application",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify user deletes task from TaskTracker application",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the Task Tracker page is open",
+            "result": {
+              "status": "passed",
+              "duration": 1407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks on \"trash\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks \"yes\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "verify deleted pop is shown",
+            "result": {
+              "status": "passed",
+              "duration": 155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify task deleted succesfully",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

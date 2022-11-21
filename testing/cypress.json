@@ -1,0 +1,16 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "testFiles": "**/*.feature",
+  "integrationFolder": "features",
+  "fixturesFolder": "fixtures",
+  "pluginsFile": "plugins",
+  "supportFile": "support",
+  "screenshotsFolder": "screenshots",
+  "video": false,
+  "viewportWidth": 1280,
+  "viewportHeight": 1024,
+  "retries": {
+      "runMode": 2,
+      "openMode": 0
+  }
+}

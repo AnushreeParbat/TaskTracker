@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Add Task",
+    "line": 1,
+    "id": "add-task",
+    "tags": [],
+    "uri": "add.feature",
+    "elements": [
+      {
+        "id": "add-task;verify-user-adds-task-in-tasktracker-application",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify user adds task in TaskTracker application",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the Task Tracker page is open",
+            "result": {
+              "status": "passed",
+              "duration": 1014000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user clicks on \"plus\" button",
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user types in the \"Task\" text field",
+            "result": {
+              "status": "passed",
+              "duration": 376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user types in the \"Day & Time\" text field",
+            "result": {
+              "status": "passed",
+              "duration": 332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks the \"Save Task\" button",
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "verify Success pop is shown",
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "verify task added succesfully",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
